@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+header {
+   
+    background-color:white;
+    display: flex;
+ 
+    justify-content: space-between;
+    padding: 8px;
+     position: sticky;/*hereket etdikde deyishmez qalir */
+    z-index: 1000;/*menyunun content sinifli elementin üstündə görünməsini təmin edir.  yazilmasa kontentin altinda qalar gorunmez*/
+    top: 0;  /*meselen 50% yazsaq header ortada olar sticy orda terpenmezolaraq qalar*/
+    letter-spacing: 4px;
+}
+
+
+.logo {
+    font-size: 16px;
+    padding: 8px 13px;
+}
+
+.logo:hover {
+    background-color: rgba(128, 128, 128, 0.71);
+}
+
+ul {
+    display: flex;
+    font-size: 16px;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 8px 13px;
+}
+
+.nav-menu-item {
+    text-decoration: none;
+    color: black;
+    padding: 8px 13px;
+}
+
+.nav-menu-item:hover {
+    background-color: rgba(173, 173, 173, 0.722);
+}
+
+.main-figure {
+    max-width: 1600px;
+    margin: 0 auto;
+ 
+
+}
+
+.section-about-left{
+    padding:20px;
+   width: 550px;
+    margin: 0 auto;
+ 
+}
+
+
+.main-section-img{
+    width:100%;
+  
+    height:100%;
+  
+ 
+}
+
+.section-about {
+    display: flex;
+ 
+
+}
+
+
+.about-img {
+    opacity: 0.8;
+    width: 100%;
+    border-radius:5px;
+  
+    
+}
+
+.section-about-right {
+ margin:20px;
+  
+    padding:30px;
+    
+
+}
+
+.section-about-header {
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 7px;
+    font-size: 35px;
+    font-weight:normal;
+}
+
+.section-about-sub {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+    letter-spacing: 7px;
+}
+
+.section-about-description,
+.section-about-sub-description-two {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.section-about-sub-description-two {
+    margin-top: 20px;
+    color: rgb(140, 137, 137);
+}
+.section-about{
+    border-bottom:1px solid rgb(197, 196, 196);
+    width:1300px;
+    margin:0px auto;
+    padding:60px;
+   
+    
+}
+.section-menu {
+    display: flex;
+    
+    border-bottom: 1px solid rgb(197, 196, 196);
+    width: 1300px;
+    margin: 0px auto;
+    padding: 60px;
+    
+ 
+}
+
+.section-menu-header {
+    font-size: 34px;
+    margin-top:50px;
+    font-weight:normal;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.section-menu-sub {
+    font-size: 18px;
+ 
+    margin-bottom:20px;
+    letter-spacing: 4px;
+    font-weight:normal;
+    
+    
+}
+
+
+.section-menu-description {
+    font-size: 18px; 
+  
+    color: grey;
+}
+.section-about-description-span{
+padding:4px 6px;
+background-color:rgba(182, 182, 182, 0.751);
+}
+.text{
+    padding:30px;
+ 
+}
+.section-menu-text {
+   margin:0 auto;
+   width:550px;
+}
+
+.section-menu-img {
+    width: 100%;
+     border-radius:5px;
+    height:100%;
+    
+  
+}
+
+.section-menu-img-figure
+{
+   padding:20px;
+   width: 550px;
+
+opacity:0.8;
+   margin: 0 auto;
+  
+}
+.section-contact{
+    
+
+
+width: 1200px;
+margin: 0px auto;
+
+padding: 80px;
+}
+
+.section-contact-header{
+    text-transform:Capitalize;
+  font-weight:normal;
+
+  margin-bottom:40px;
+font-size:35px;
+}
+
+.section-contact-header-sub,.section-contact-description{
+    font-size:16px;
+}
+
+.section-contact-addres{
+    
+    color:rgba(59, 59, 110, 0.913);
+    font-size:19px;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+input ,.send{
+    padding:10px;
+    margin:20px;
+    border:none;
+    border-bottom: 1px solid #ccc;
+   
+    display:block;
+} 
+
+input {
+    width: 1000px;
+}
+.send{
+    padding:9px 13px;
+    text-transform:uppercase;
+}
+.send:hover{
+    background-color:rgba(128, 128, 128, 0.381);
+}
+
+
+footer{
+    background-color:rgb(208, 202, 202);
+    padding:40px;
+
+}
+
+.footer-text{
+font: size 12px;
+text-align:center;
+margin:0 auto;
+
+}
+.footer-link{
+    color:black;
+}
+
+.footer-link:hover{
+    color:rgb(21, 201, 63);
+}
